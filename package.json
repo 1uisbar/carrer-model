@@ -8,6 +8,7 @@
     "build": "node scripts/build.mjs",
     "test": "node --test tests/*.test.mjs",
     "excel": "python3 excel/build_excel.py",
+    "test:excel": "python3 tests/test_excel.py",
     "supuestos-md": "node scripts/gen_supuestos_md.mjs"
   },
   "devDependencies": {
