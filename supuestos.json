@@ -517,7 +517,8 @@
       "f": "estimado",
       "c": "baja",
       "e": true,
-      "n": "Si ellas aportan (p. ej. lo que hoy pagan de renta), acelera el pago."
+      "n": "Si ellas aportan (p. ej. lo que hoy pagan de renta), acelera el pago.",
+      "k": true
     },
     "costoMudanzaInicial": {
       "v": 5000,
@@ -2190,7 +2191,8 @@
         "step": 1000,
         "f": "crnaBLS",
         "c": "alta",
-        "n": "BLS mayo 2025 mediana $236,590."
+        "n": "BLS mayo 2025 mediana $236,590.",
+        "k": true
       },
       "aumento": {
         "v": 0.03,

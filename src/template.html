@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Modelo de Carrera 20 años</title>
+<meta name="description" content="Comparación financiera interactiva de caminos de enfermería y medicina (MD vía USMLE) a 20 años, por ubicación y vivienda multigeneracional.">
+<style>/*__CSS__*/</style>
+</head>
+<body>
+<header class="top">
+  <div class="title">
+    <h1>Modelo de carrera y patrimonio · 2027–2046</h1>
+    <small>RN case manager con MD de Cuba · enfermería vs. MD vía USMLE · vivienda multigeneracional</small>
+  </div>
+  <div class="controls">
+    <label>Ubicación <select id="selLoc"></select></label>
+    <label>Vivienda <select id="selHouse"></select></label>
+    <label>Escenario
+      <span class="seg" id="segScen">
+        <button data-v="pesimista">Pesimista</button><button data-v="base">Base</button><button data-v="optimista">Optimista</button>
+      </span>
+    </label>
+    <label>Dólares
+      <span class="seg" id="segReal"><button data-v="nom">Nominales</button><button data-v="real">De 2026</button></span>
+    </label>
+    <label>Overlay LLC
+      <span class="seg" id="segLlc"><button data-v="off">No</button><button data-v="on">Sí</button></span>
+    </label>
+  </div>
+</header>
+<nav class="tabs" id="tabs">
+  <button data-tab="resumen">Resumen</button>
+  <button data-tab="timeline">Timeline</button>
+  <button data-tab="graficos">Gráficos</button>
+  <button data-tab="vivienda">Vivienda</button>
+  <button data-tab="ubicaciones">Ubicaciones</button>
+  <button data-tab="md">MD · Monte Carlo</button>
+  <button data-tab="sensibilidad">Sensibilidad</button>
+  <button data-tab="supuestos">Supuestos</button>
+  <button data-tab="notas">Notas</button>
+</nav>
+<div class="layout">
+  <aside class="side card" id="side">
+    <h2>Variables clave
+      <button class="mobile-only" id="toggleSide" aria-expanded="true">Ocultar</button>
+    </h2>
+    <div class="side-body">
+      <p class="muted" style="margin-top:0">Recalcula al instante. Todas las demás variables están en <a href="#" data-goto="supuestos">Supuestos</a>.</p>
+      <div id="sliders"></div>
+      <button id="btnResetKeys" style="width:100%">Restablecer todo a valores por defecto</button>
+    </div>
+  </aside>
+  <main id="main">
+    <section data-panel="resumen"></section>
+    <section data-panel="timeline" hidden></section>
+    <section data-panel="graficos" hidden></section>
+    <section data-panel="vivienda" hidden></section>
+    <section data-panel="ubicaciones" hidden></section>
+    <section data-panel="md" hidden></section>
+    <section data-panel="sensibilidad" hidden></section>
+    <section data-panel="supuestos" hidden></section>
+    <section data-panel="notas" hidden></section>
+  </main>
+</div>
+<script>/*__CHARTJS__*/</script>
+<script>/*__ENGINE__*/</script>
+<script>window.SUPUESTOS_DEFAULT = /*__SUPUESTOS__*/;</script>
+<script>/*__UI__*/</script>
+</body>
+</html>
