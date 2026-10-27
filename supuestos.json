@@ -208,6 +208,14 @@
     "estimado": {
       "t": "Estimación propia del modelo (sin dato publicado directo); ver nota",
       "url": ""
+    },
+    "usuario": {
+      "t": "Dato proporcionado por ti (README del repositorio)",
+      "url": ""
+    },
+    "modelo": {
+      "t": "Parámetro de diseño del modelo",
+      "url": ""
     }
   },
   "general": {
@@ -218,7 +226,7 @@
       "min": 2027,
       "max": 2027,
       "step": 1,
-      "f": "estimado",
+      "f": "modelo",
       "c": "alta",
       "n": "La simulación es anual de 2027 a 2046 (20 años). Saldo inicial = situación a oct-2026."
     },
@@ -229,7 +237,7 @@
       "min": 10,
       "max": 20,
       "step": 1,
-      "f": "estimado",
+      "f": "modelo",
       "c": "alta"
     },
     "edad": {
@@ -239,7 +247,7 @@
       "min": 20,
       "max": 60,
       "step": 1,
-      "f": "estimado",
+      "f": "usuario",
       "c": "alta"
     },
     "inflacion": {
@@ -323,7 +331,7 @@
       "min": 25,
       "max": 80,
       "step": 0.5,
-      "f": "estimado",
+      "f": "usuario",
       "c": "alta",
       "n": "Dato del usuario."
     },
@@ -334,7 +342,7 @@
       "min": 8,
       "max": 60,
       "step": 1,
-      "f": "estimado",
+      "f": "usuario",
       "c": "alta",
       "n": "Ingreso actual ≈ 40 × 32 × 52 = $66,560/año."
     },
@@ -368,7 +376,7 @@
       "min": 0,
       "max": 50000,
       "step": 50,
-      "f": "estimado",
+      "f": "usuario",
       "c": "alta"
     },
     "irsPagoMensual": {
@@ -389,7 +397,7 @@
       "min": 0,
       "max": 300000,
       "step": 500,
-      "f": "estimado",
+      "f": "usuario",
       "c": "alta"
     },
     "tasaDeudaEstudiantil": {
@@ -399,7 +407,7 @@
       "min": 0,
       "max": 0.15,
       "step": 0.0025,
-      "f": "estimado",
+      "f": "usuario",
       "c": "media",
       "k": true
     },
@@ -429,7 +437,7 @@
       "min": 0,
       "max": 0.1,
       "step": 0.005,
-      "f": "estimado",
+      "f": "usuario",
       "c": "alta",
       "n": "Dato del usuario para Mount Sinai; se aplica a empleos hospitalarios con match."
     },
@@ -451,7 +459,7 @@
       "min": 2027,
       "max": 2029,
       "step": 0.25,
-      "f": "estimado",
+      "f": "usuario",
       "c": "media",
       "n": "Default: mediados de 2027."
     },
@@ -481,7 +489,7 @@
       "v": false,
       "l": "Overlay: ingreso lateral Angelmar Group LLC",
       "u": "bool",
-      "f": "estimado",
+      "f": "usuario",
       "c": "media"
     },
     "llcNeto": {
@@ -892,7 +900,7 @@
         "casaAdu": "Casa + ADU construido después",
         "multi": "Multifamiliar 3-4 unidades (rentar 1-2)"
       },
-      "f": "estimado",
+      "f": "modelo",
       "c": "alta"
     },
     "tasaHipoteca": {
@@ -914,7 +922,7 @@
       "min": 10,
       "max": 30,
       "step": 5,
-      "f": "estimado",
+      "f": "modelo",
       "c": "alta"
     },
     "enganchePct": {
@@ -1017,7 +1025,7 @@
       "min": 2027,
       "max": 2045,
       "step": 1,
-      "f": "estimado",
+      "f": "modelo",
       "c": "media"
     },
     "vacancia": {
@@ -1057,7 +1065,7 @@
       "v": true,
       "l": "Usar 'physician loan' (5% enganche, sin PMI) al ser attending",
       "u": "bool",
-      "f": "estimado",
+      "f": "modelo",
       "c": "media"
     }
   },
@@ -2533,7 +2541,7 @@
       "min": 2027,
       "max": 2030,
       "step": 0.08,
-      "f": "estimado",
+      "f": "usuario",
       "c": "alta",
       "k": true
     },
@@ -2808,7 +2816,7 @@
       "min": 1,
       "max": 4,
       "step": 1,
-      "f": "estimado",
+      "f": "modelo",
       "c": "media"
     },
     "residenciaAnios": {
@@ -2818,7 +2826,7 @@
       "min": 3,
       "max": 4,
       "step": 1,
-      "f": "estimado",
+      "f": "modelo",
       "c": "alta"
     },
     "especialidad": {
@@ -2829,7 +2837,7 @@
         "hospitalista": "Hospitalista (IM)",
         "fm": "Medicina familiar"
       },
-      "f": "estimado",
+      "f": "modelo",
       "c": "alta"
     },
     "locumsTurnosMes": {
@@ -2889,7 +2897,7 @@
       "min": 100,
       "max": 5000,
       "step": 100,
-      "f": "estimado",
+      "f": "modelo",
       "c": "alta"
     },
     "bonoFirmaAttending": {
