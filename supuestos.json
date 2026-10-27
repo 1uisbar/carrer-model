@@ -1,0 +1,2960 @@
+{
+  "_meta": {
+    "descripcion": "ARCHIVO ÚNICO DE SUPUESTOS. Cada hoja tiene: v=valor, l=etiqueta, u=unidad, min/max/step=rango de edición, f=id de fuente (ver 'fuentes'), c=confianza (alta/media/baja), e=true si es ESTIMADO (no dato publicado), n=nota, k=true si aparece como deslizador principal. Todas las cifras monetarias en dólares nominales de 2026 salvo que se indique.",
+    "fechaConsulta": "2026-10-27",
+    "version": 1
+  },
+  "fuentes": {
+    "irs2026": {
+      "t": "IRS Rev. Proc. 2025-32 (brackets y deducción estándar 2026) vía Accounting Today",
+      "url": "https://www.accountingtoday.com/news/irs-announces-inflation-adjustments-for-2026"
+    },
+    "limites2026": {
+      "t": "Límites 2026 (SS wage base, 403b, IRA) – Mayer Brown",
+      "url": "https://www.mayerbrown.com/es/insights/publications/2025/12/irs-annual-limits-for-benefit-plans-2026-cost-of-living-adjustments"
+    },
+    "ohio2026": {
+      "t": "EY Tax News – Ohio tasa plana 2.75% desde 2026",
+      "url": "https://taxnews.ey.com/news/2025-1744"
+    },
+    "nytax": {
+      "t": "NY State/NYC tasas (aprox. 2026, verificar en tax.ny.gov)",
+      "url": "https://www.countrytaxcalc.com/tax-guides/compare/new-york-vs-ohio/"
+    },
+    "nrmp2026": {
+      "t": "NRMP Results and Data 2026 Main Residency Match",
+      "url": "https://www.nrmp.org/wp-content/uploads/2026/05/Main_Match_Results_and_Data-2026.pdf"
+    },
+    "nrmpCO2026": {
+      "t": "NRMP Charting Outcomes Non-U.S. IMG 2026",
+      "url": "https://www.nrmp.org/wp-content/uploads/2026/07/Non-US-IMG_Charting-Outcomes_FINAL.pdf"
+    },
+    "ecfmg2026": {
+      "t": "ECFMG – resultados del Match 2026 para IMGs (56.4% non-US IMG)",
+      "url": "https://www.ecfmg.org/news/?p=5542"
+    },
+    "visa2026": {
+      "t": "Desglose por visa 2026: 67.9% sin visa vs 54.4% con visa (fuente secundaria)",
+      "url": "https://academically.com/blogs/img-match-rate-2026-can-indian-mbbs-doctors-actually-get-us-residency/"
+    },
+    "soapAMA": {
+      "t": "AMA – especialidades que más colocan por SOAP (IMGs 27.1% de puestos SOAP)",
+      "url": "https://www.ama-assn.org/medical-students/preparing-residency/match-which-specialties-place-most-residents-through-soap"
+    },
+    "soapRA": {
+      "t": "ResidencyAdvisor – resultados SOAP para IMGs (estimación 20–35%)",
+      "url": "https://residencyadvisor.com/resources/img-residency-guide/postmatch-soap-outcomes-for-imgs-positions-specialties-and-odds"
+    },
+    "usmleFees": {
+      "t": "FSMB – tarifas USMLE 2026/2027",
+      "url": "https://www.fsmb.org/usmle/"
+    },
+    "eras2027": {
+      "t": "AAMC – tarifas ERAS 2027",
+      "url": "https://students-residents.aamc.org/applying-residencies-eras/publication-chapters/fees-2027-eras-season"
+    },
+    "ecfmgPath": {
+      "t": "Pathways ECFMG 2027 ($945) y OET Medicine",
+      "url": "https://thematchguy.com/pathways-ecfmg-certification/"
+    },
+    "usmlePass": {
+      "t": "Tasas de aprobación USMLE IMGs (Step 1 ~72%, Step 2 CK ~68%)",
+      "url": "https://www.iatrox.com/blog/usmle-step-1-step-2-ck-pass-rates-difficulty-2026"
+    },
+    "aamcStipend": {
+      "t": "Encuesta AAMC 2025 de salarios de residentes por región (vía MedSchoolCoach)",
+      "url": "https://www.medschoolcoach.com/average-residency-salary"
+    },
+    "medscapeIM": {
+      "t": "Medscape 2026 – internistas $307k (vía Weatherby)",
+      "url": "https://m.weatherbyhealthcare.com/blog/internal-medicine-salary-report"
+    },
+    "medscapeFM": {
+      "t": "Medicina familiar ~$288k (Medscape, vía Physician on FIRE)",
+      "url": "https://www.physicianonfire.com/physician-salary-by-specialty/"
+    },
+    "doximity2026": {
+      "t": "Doximity Physician Compensation Report 2026",
+      "url": "https://www.doximity.com/reports/physician-compensation-report/2026"
+    },
+    "locums": {
+      "t": "Barton Associates – hospitalista locum $130–175/h; postings $200/h",
+      "url": "https://www.bartonassociates.com/salary-tool/physician/hospitalist/"
+    },
+    "blsRN": {
+      "t": "BLS OOH – Registered Nurses (mediana $97,550; media nacional $101,420, mayo 2025)",
+      "url": "https://www.bls.gov/ooh/healthcare/registered-nurses.htm"
+    },
+    "rnMiami": {
+      "t": "RN Miami-Fort Lauderdale (BLS OEWS 2025 vía Hyring: media $94,990)",
+      "url": "https://hyring.com/jobseeker-toolkit/salary/registered-nurse-salary-in-miami"
+    },
+    "rnTX": {
+      "t": "RN DFW $101,420 / Houston $99,830 (allnurses, año BLS no claro); DFW 2024 mediana $98,740",
+      "url": "https://allnurses.com/nursing-salaries/rn/texas/"
+    },
+    "rnNY": {
+      "t": "RN New York-Newark-Jersey City (OEWS mayo 2025 vía Wagedex/Hyring: ~$119,600)",
+      "url": "https://wagedex.com/jobs/registered-nurses/metro/new-york-newark-jersey-city-ny-nj"
+    },
+    "rnCLE": {
+      "t": "RN Cleveland (OEWS mayo 2025 vía DegreeCalc: mediana $83,940)",
+      "url": "https://degreecalc.com/major/nursing/cleveland-oh"
+    },
+    "crnaBLS": {
+      "t": "BLS mayo 2025 – CRNA mediana $236,590 (vía Becker's)",
+      "url": "https://www.beckershospitalreview.com/compensation-issues/crna-median-pay-by-state/"
+    },
+    "crnaCost": {
+      "t": "Costo programas DNP-CRNA (Iowa $85.7k residente/$163.8k no residente; Duke $2,250/crédito; rango $60k–$100k+)",
+      "url": "https://nursing.uiowa.edu/sites/nursing.uiowa.edu/files/2025-09/ANP_costs_estimates_2025.pdf"
+    },
+    "npBLS": {
+      "t": "BLS mayo 2025 – NP mediana $132,300 (vía Becker's)",
+      "url": "https://www.beckershospitalreview.com/compensation-issues/np-median-pay-by-state/"
+    },
+    "pmhnp": {
+      "t": "PMHNP ~$145k (AANP 2024 / Indeed 2026, vía Barton)",
+      "url": "https://www.bartonassociates.com/np-psychiatry-salary-guide/"
+    },
+    "fnpCost": {
+      "t": "Costo MSN-FNP online part-time ($18k–$42k; Frontier ~$34.6k)",
+      "url": "https://www.nursingprocess.org/online-part-time-fnp-programs.html"
+    },
+    "travel": {
+      "t": "Travel nurse: promedio semanal ~$2,216 (Vivian, oct 2026), Aya $2,234",
+      "url": "https://dreambound.com/blog/travel-nurse-salary"
+    },
+    "cdi": {
+      "t": "CDI Specialist: Payscale 2026 $84.6k; ACDIS 2023 ~$99k; postings $68k–$113k",
+      "url": "https://payscale.com/research/US/Job=Clinical_Documentation_Specialist/Salary"
+    },
+    "mgr": {
+      "t": "Clinical Nurse Manager Payscale 2026 ~$102.7k; educador clínico Indeed ~$112k",
+      "url": "https://www.payscale.com/research/US/Job=Clinical_Nurse_Manager/Salary/1645540c/Clinical-Education"
+    },
+    "injector": {
+      "t": "Aesthetic injector RN postings 2026 $75k–$125k (NakedMD)",
+      "url": "https://apply.workable.com/nakedmd/jobs/view/EC42AEE17C.md"
+    },
+    "icuTrans": {
+      "t": "Programas de transición/fellowship ICU para RN experimentados (CHI Memorial, CommonSpirit)",
+      "url": "https://memorial.org/careers/nurse-fellowship"
+    },
+    "pslf2026": {
+      "t": "Cambios PSLF/RAP 2026 (OBBBA): RAP califica para PSLF, 1–10% del AGI",
+      "url": "https://www.tateesq.com/learn/pslf-changes-2026"
+    },
+    "loans2026": {
+      "t": "ED – tasa Direct Unsubsidized posgrado 2026-27: 8.07%",
+      "url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-06-04/interest-rates-federal-direct-loans-first-disbursed-between-july-1-2026-and-june-30-2027"
+    },
+    "loanCaps": {
+      "t": "Límites préstamos desde 1-jul-2026: posgrado $20,500/año ($100k total); profesional $50k/año ($200k)",
+      "url": "https://www.uvu.edu/financialaid/aid/graduate_professional_loan_changes_2026.html"
+    },
+    "freddie": {
+      "t": "Freddie Mac PMMS – 30 años 7.32% (22-oct-2026)",
+      "url": "https://fred.stlouisfed.org/series/MORTGAGE30US"
+    },
+    "dfwHome": {
+      "t": "DFW mediana ~$395k (Opendoor, may-2026); $439,990 (Follow Up Ace, jul-2026)",
+      "url": "https://www.opendoor.com/articles/state-of-the-dfw-market"
+    },
+    "dfwDuplex": {
+      "t": "Dúplex DFW: nuevos Midlothian $699k; Fort Worth 2009 $525k (listados)",
+      "url": "https://www.houzeo.com/homes/6525-greenway-rd-fort-worth-tx-76116/hzid_2e0709ab"
+    },
+    "miamiHome": {
+      "t": "Miami-Dade unifamiliar mediana $692k (sep-2026, Echo Fine Properties)",
+      "url": "https://www.echofineproperties.com/miami-dade-county-all-property-types-market-update-september-2026/"
+    },
+    "houHome": {
+      "t": "Houston (HAR) mediana unifamiliar ~$345k (jun-2026)",
+      "url": "https://www.harbertgroup.com/blog/1007/Houston+Real+Estate+Market+Update+June+2026%3A+Har+Mls+Data+And+What+It+Means"
+    },
+    "cleHome": {
+      "t": "Cuyahoga County mediana venta ~$225k (Zillow jun-2026); ATTOM impuesto efectivo 1.72%",
+      "url": "https://www.attomdata.com/data/us-real-estate/oh/cuyahoga-county"
+    },
+    "insurance": {
+      "t": "Insurance.com 2026: prima promedio FL $8,471; TX $4,582; nacional $2,872",
+      "url": "https://www.insurance.com/home-and-renters-insurance/home-insurance-unaffordable-states/"
+    },
+    "propTX": {
+      "t": "Impuesto predial efectivo Dallas 1.44–1.85%, Tarrant 1.54–1.80%",
+      "url": "https://propertytaxalmanac.com/texas/"
+    },
+    "nlc": {
+      "t": "Nurse Licensure Compact – estados miembros 2026",
+      "url": "https://www.registerednursing.org/articles/nursing-license-compact/"
+    },
+    "imgFriendly": {
+      "t": "% de puestos IM PGY-1 2026 ocupados por non-US IMG por estado (NY 37.4%, NJ 42.4%, PA 33.4%)",
+      "url": "https://www.residencyprogramslist.com/img-friendly-internal-medicine-in-new-york"
+    },
+    "flPath": {
+      "t": "Estatutos FL 2026 cap. 458 (licencia restringida: práctica activa 2 de los últimos 4 años)",
+      "url": "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0400-0499%2F0458%2F0458.html"
+    },
+    "txDoctor": {
+      "t": "Texas DOCTOR Act (HB 2038): residencia extranjera + 5 años de práctica + oferta de empleo",
+      "url": "https://www.texastribune.org/2026/01/09/texas-foreign-doctors-recruiting-law/"
+    },
+    "statesIMG": {
+      "t": "Niskanen Center – vías alternativas de licencia por estado",
+      "url": "https://www.niskanencenter.org/implementing-new-licening-pathways-that-work-for-international-doctors-and-american-patients/"
+    },
+    "estimado": {
+      "t": "Estimación propia del modelo (sin dato publicado directo); ver nota",
+      "url": ""
+    }
+  },
+  "general": {
+    "anioInicio": {
+      "v": 2027,
+      "l": "Primer año simulado",
+      "u": "año",
+      "min": 2027,
+      "max": 2027,
+      "step": 1,
+      "f": "estimado",
+      "c": "alta",
+      "n": "La simulación es anual de 2027 a 2046 (20 años). Saldo inicial = situación a oct-2026."
+    },
+    "horizonte": {
+      "v": 20,
+      "l": "Horizonte",
+      "u": "años",
+      "min": 10,
+      "max": 20,
+      "step": 1,
+      "f": "estimado",
+      "c": "alta"
+    },
+    "edad": {
+      "v": 30,
+      "l": "Edad actual",
+      "u": "años",
+      "min": 20,
+      "max": 60,
+      "step": 1,
+      "f": "estimado",
+      "c": "alta"
+    },
+    "inflacion": {
+      "v": 0.03,
+      "l": "Inflación anual (gastos, brackets)",
+      "u": "%",
+      "min": 0,
+      "max": 0.08,
+      "step": 0.0025,
+      "f": "estimado",
+      "c": "media",
+      "e": true,
+      "k": true,
+      "n": "Supuesto de largo plazo; la Fed apunta a 2%, se usa 3% por prudencia."
+    },
+    "retornoInversion": {
+      "v": 0.07,
+      "l": "Retorno nominal de inversiones (403b/Roth/brokerage)",
+      "u": "%",
+      "min": 0,
+      "max": 0.12,
+      "step": 0.0025,
+      "f": "estimado",
+      "c": "media",
+      "e": true,
+      "k": true,
+      "n": "Cartera mayormente en acciones; histórico S&P 500 ~10% nominal, se usa 7% conservador."
+    },
+    "retornoEfectivo": {
+      "v": 0.035,
+      "l": "Retorno de efectivo/HYSA (ahorro para enganche)",
+      "u": "%",
+      "min": 0,
+      "max": 0.06,
+      "step": 0.0025,
+      "f": "estimado",
+      "c": "media",
+      "e": true
+    },
+    "tasaAhorro": {
+      "v": 0.75,
+      "l": "Tasa de ahorro del excedente (resto = gasto discrecional)",
+      "u": "%",
+      "min": 0.2,
+      "max": 1,
+      "step": 0.05,
+      "f": "estimado",
+      "c": "media",
+      "e": true,
+      "k": true,
+      "n": "De lo que sobra tras gastos básicos, vivienda, deudas y estudios, este % se ahorra/invierte."
+    },
+    "reservaMeses": {
+      "v": 3,
+      "l": "Fondo de emergencia exigido antes de comprar vivienda",
+      "u": "meses",
+      "min": 0,
+      "max": 12,
+      "step": 1,
+      "f": "estimado",
+      "c": "media",
+      "e": true
+    },
+    "tasaDeudaConsumo": {
+      "v": 0.12,
+      "l": "Tasa de deuda de consumo si hay déficit fuera de estudios",
+      "u": "%",
+      "min": 0.05,
+      "max": 0.3,
+      "step": 0.005,
+      "f": "estimado",
+      "c": "media",
+      "e": true
+    }
+  },
+  "personal": {
+    "tarifaHora": {
+      "v": 40,
+      "l": "Tarifa actual Mount Sinai",
+      "u": "$/h",
+      "min": 25,
+      "max": 80,
+      "step": 0.5,
+      "f": "estimado",
+      "c": "alta",
+      "n": "Dato del usuario."
+    },
+    "horasSemana": {
+      "v": 32,
+      "l": "Horas/semana actuales (~4 días)",
+      "u": "h",
+      "min": 8,
+      "max": 60,
+      "step": 1,
+      "f": "estimado",
+      "c": "alta",
+      "n": "Ingreso actual ≈ 40 × 32 × 52 = $66,560/año."
+    },
+    "liquidoInicial": {
+      "v": 8000,
+      "l": "Ahorro líquido inicial (HYSA + brokerage)",
+      "u": "$",
+      "min": 0,
+      "max": 200000,
+      "step": 500,
+      "f": "estimado",
+      "c": "media",
+      "e": true,
+      "n": "Total declarado ~$13,000; el reparto líquido/retiro es estimado."
+    },
+    "retiroInicial": {
+      "v": 5000,
+      "l": "Retiro inicial (Roth IRA + 403b)",
+      "u": "$",
+      "min": 0,
+      "max": 200000,
+      "step": 500,
+      "f": "estimado",
+      "c": "media",
+      "e": true
+    },
+    "irsSaldo": {
+      "v": 1350,
+      "l": "Plan de pagos IRS restante",
+      "u": "$",
+      "min": 0,
+      "max": 50000,
+      "step": 50,
+      "f": "estimado",
+      "c": "alta"
+    },
+    "irsPagoMensual": {
+      "v": 150,
+      "l": "Pago mensual IRS",
+      "u": "$",
+      "min": 0,
+      "max": 2000,
+      "step": 10,
+      "f": "estimado",
+      "c": "media",
+      "e": true
+    },
+    "deudaEstudiantil": {
+      "v": 10000,
+      "l": "Deuda estudiantil actual",
+      "u": "$",
+      "min": 0,
+      "max": 300000,
+      "step": 500,
+      "f": "estimado",
+      "c": "alta"
+    },
+    "tasaDeudaEstudiantil": {
+      "v": 0.06,
+      "l": "Tasa deuda estudiantil actual",
+      "u": "%",
+      "min": 0,
+      "max": 0.15,
+      "step": 0.0025,
+      "f": "estimado",
+      "c": "media",
+      "k": true
+    },
+    "deudaEsFederal": {
+      "v": true,
+      "l": "La deuda actual es federal (elegible PSLF/RAP)",
+      "u": "bool",
+      "f": "estimado",
+      "c": "baja",
+      "e": true
+    },
+    "aporte403bPct": {
+      "v": 0.06,
+      "l": "Aporte propio al 403b/401k (% del salario W-2)",
+      "u": "%",
+      "min": 0,
+      "max": 0.3,
+      "step": 0.01,
+      "f": "estimado",
+      "c": "media",
+      "e": true
+    },
+    "match403bPct": {
+      "v": 0.04,
+      "l": "Match del empleador (desde ene-2027)",
+      "u": "%",
+      "min": 0,
+      "max": 0.1,
+      "step": 0.005,
+      "f": "estimado",
+      "c": "alta",
+      "n": "Dato del usuario para Mount Sinai; se aplica a empleos hospitalarios con match."
+    },
+    "rothAnual": {
+      "v": 3000,
+      "l": "Aporte anual a Roth IRA (si hay excedente)",
+      "u": "$",
+      "min": 0,
+      "max": 7500,
+      "step": 250,
+      "f": "limites2026",
+      "c": "media",
+      "n": "Límite IRA 2026 = $7,500. Con ingresos altos se asume backdoor Roth."
+    },
+    "bsnFin": {
+      "v": 2027.5,
+      "l": "Graduación RN-BSN (South University)",
+      "u": "año",
+      "min": 2027,
+      "max": 2029,
+      "step": 0.25,
+      "f": "estimado",
+      "c": "media",
+      "n": "Default: mediados de 2027."
+    },
+    "bsnCostoRestante": {
+      "v": 6000,
+      "l": "Matrícula restante del RN-BSN",
+      "u": "$",
+      "min": 0,
+      "max": 30000,
+      "step": 500,
+      "f": "estimado",
+      "c": "baja",
+      "e": true
+    },
+    "bsnAumento": {
+      "v": 0.04,
+      "l": "Aumento salarial por BSN (case mgmt)",
+      "u": "%",
+      "min": 0,
+      "max": 0.15,
+      "step": 0.01,
+      "f": "estimado",
+      "c": "baja",
+      "e": true
+    },
+    "llcActivo": {
+      "v": false,
+      "l": "Overlay: ingreso lateral Angelmar Group LLC",
+      "u": "bool",
+      "f": "estimado",
+      "c": "media"
+    },
+    "llcNeto": {
+      "v": 12000,
+      "l": "Ganancia neta anual Angelmar LLC",
+      "u": "$",
+      "min": 0,
+      "max": 200000,
+      "step": 1000,
+      "f": "estimado",
+      "c": "baja",
+      "e": true,
+      "n": "Sujeta a impuesto de autoempleo (15.3%) e impuesto sobre la renta."
+    },
+    "llcCrecimiento": {
+      "v": 0.05,
+      "l": "Crecimiento anual LLC",
+      "u": "%",
+      "min": -0.2,
+      "max": 0.5,
+      "step": 0.01,
+      "f": "estimado",
+      "c": "baja",
+      "e": true
+    },
+    "aporteFamiliaMensual": {
+      "v": 0,
+      "l": "Aporte mensual de mamá/tía a la vivienda",
+      "u": "$",
+      "min": 0,
+      "max": 5000,
+      "step": 50,
+      "f": "estimado",
+      "c": "baja",
+      "e": true,
+      "n": "Si ellas aportan (p. ej. lo que hoy pagan de renta), acelera el pago."
+    },
+    "costoMudanzaInicial": {
+      "v": 5000,
+      "l": "Mudanza inicial si la ubicación no es Miami",
+      "u": "$",
+      "min": 0,
+      "max": 20000,
+      "step": 250,
+      "f": "estimado",
+      "c": "media",
+      "e": true
+    }
+  },
+  "impuestos": {
+    "federalBrackets": {
+      "v": [
+        [
+          12400,
+          0.1
+        ],
+        [
+          50400,
+          0.12
+        ],
+        [
+          105700,
+          0.22
+        ],
+        [
+          201775,
+          0.24
+        ],
+        [
+          256225,
+          0.32
+        ],
+        [
+          640600,
+          0.35
+        ],
+        [
+          1000000000000000.0,
+          0.37
+        ]
+      ],
+      "l": "Brackets federales 2026 (soltero) [hasta, tasa]",
+      "u": "tabla",
+      "f": "irs2026",
+      "c": "alta",
+      "n": "Se indexan con la inflación del modelo cada año."
+    },
+    "deduccionEstandar": {
+      "v": 16100,
+      "l": "Deducción estándar 2026 (soltero)",
+      "u": "$",
+      "min": 0,
+      "max": 40000,
+      "step": 50,
+      "f": "irs2026",
+      "c": "alta"
+    },
+    "ssTasa": {
+      "v": 0.062,
+      "l": "Seguro Social (empleado)",
+      "u": "%",
+      "min": 0,
+      "max": 0.2,
+      "step": 0.001,
+      "f": "limites2026",
+      "c": "alta"
+    },
+    "ssTope": {
+      "v": 184500,
+      "l": "Tope salarial Seguro Social 2026",
+      "u": "$",
+      "min": 100000,
+      "max": 400000,
+      "step": 100,
+      "f": "limites2026",
+      "c": "alta"
+    },
+    "medicareTasa": {
+      "v": 0.0145,
+      "l": "Medicare (empleado)",
+      "u": "%",
+      "min": 0,
+      "max": 0.05,
+      "step": 0.0005,
+      "f": "limites2026",
+      "c": "alta"
+    },
+    "medicareAdicional": {
+      "v": 0.009,
+      "l": "Medicare adicional (> $200k)",
+      "u": "%",
+      "min": 0,
+      "max": 0.05,
+      "step": 0.0005,
+      "f": "limites2026",
+      "c": "alta"
+    },
+    "medicareUmbral": {
+      "v": 200000,
+      "l": "Umbral Medicare adicional (no indexado)",
+      "u": "$",
+      "min": 0,
+      "max": 500000,
+      "step": 1000,
+      "f": "limites2026",
+      "c": "alta"
+    },
+    "qbiUmbral": {
+      "v": 201750,
+      "l": "Umbral QBI (SSTB) soltero 2026",
+      "u": "$",
+      "min": 0,
+      "max": 400000,
+      "step": 250,
+      "f": "estimado",
+      "c": "media",
+      "e": true,
+      "n": "Médicos/enfermeros son 'SSTB': la deducción 20% QBI se elimina por encima del umbral + rango."
+    },
+    "qbiRango": {
+      "v": 75000,
+      "l": "Rango de eliminación QBI (OBBBA)",
+      "u": "$",
+      "min": 0,
+      "max": 150000,
+      "step": 1000,
+      "f": "estimado",
+      "c": "media",
+      "e": true
+    },
+    "scorpSalarioPct": {
+      "v": 0.5,
+      "l": "S-corp locums: % pagado como salario razonable",
+      "u": "%",
+      "min": 0.3,
+      "max": 1,
+      "step": 0.05,
+      "f": "estimado",
+      "c": "media",
+      "e": true,
+      "n": "El resto es distribución sin FICA. El IRS exige salario 'razonable'."
+    },
+    "scorpCostoAnual": {
+      "v": 3000,
+      "l": "Costo anual S-corp (contador, nómina, franchise)",
+      "u": "$",
+      "min": 0,
+      "max": 15000,
+      "step": 250,
+      "f": "estimado",
+      "c": "media",
+      "e": true
+    },
+    "nyBrackets": {
+      "v": [
+        [
+          8500,
+          0.039
+        ],
+        [
+          11700,
+          0.044
+        ],
+        [
+          13900,
+          0.0515
+        ],
+        [
+          80650,
+          0.054
+        ],
+        [
+          215400,
+          0.059
+        ],
+        [
+          1077550,
+          0.0685
+        ],
+        [
+          5000000,
+          0.0965
+        ],
+        [
+          25000000,
+          0.103
+        ],
+        [
+          1000000000000000.0,
+          0.109
+        ]
+      ],
+      "l": "Brackets estado de NY (soltero, aprox. 2026)",
+      "u": "tabla",
+      "f": "nytax",
+      "c": "media",
+      "e": true
+    },
+    "nyDeduccion": {
+      "v": 8000,
+      "l": "Deducción estándar NY",
+      "u": "$",
+      "min": 0,
+      "max": 20000,
+      "step": 100,
+      "f": "nytax",
+      "c": "media"
+    },
+    "nycBrackets": {
+      "v": [
+        [
+          12000,
+          0.03078
+        ],
+        [
+          25000,
+          0.03762
+        ],
+        [
+          50000,
+          0.03819
+        ],
+        [
+          1000000000000000.0,
+          0.03876
+        ]
+      ],
+      "l": "Impuesto municipal NYC",
+      "u": "tabla",
+      "f": "nytax",
+      "c": "media"
+    },
+    "ohTasa": {
+      "v": 0.0275,
+      "l": "Ohio tasa plana 2026",
+      "u": "%",
+      "min": 0,
+      "max": 0.1,
+      "step": 0.0005,
+      "f": "ohio2026",
+      "c": "alta"
+    },
+    "ohExento": {
+      "v": 26050,
+      "l": "Ohio: ingreso exento",
+      "u": "$",
+      "min": 0,
+      "max": 50000,
+      "step": 50,
+      "f": "ohio2026",
+      "c": "alta"
+    },
+    "ohMunicipal": {
+      "v": 0.025,
+      "l": "Impuesto municipal Cleveland (sobre salarios)",
+      "u": "%",
+      "min": 0,
+      "max": 0.04,
+      "step": 0.0005,
+      "f": "ohio2026",
+      "c": "media"
+    }
+  },
+  "retiro": {
+    "limite403b": {
+      "v": 24500,
+      "l": "Límite aporte 403b/401k 2026",
+      "u": "$",
+      "min": 0,
+      "max": 50000,
+      "step": 500,
+      "f": "limites2026",
+      "c": "alta"
+    }
+  },
+  "prestamos": {
+    "tasaFederalPosgrado": {
+      "v": 0.0807,
+      "l": "Tasa federal posgrado 2026-27",
+      "u": "%",
+      "min": 0.03,
+      "max": 0.12,
+      "step": 0.0005,
+      "f": "loans2026",
+      "c": "alta"
+    },
+    "tasaPrivada": {
+      "v": 0.095,
+      "l": "Tasa préstamo privado (excedente sobre tope federal)",
+      "u": "%",
+      "min": 0.04,
+      "max": 0.16,
+      "step": 0.0025,
+      "f": "estimado",
+      "c": "media",
+      "e": true
+    },
+    "topeAnualPosgrado": {
+      "v": 20500,
+      "l": "Tope federal anual – posgrado (NP/CRNA)",
+      "u": "$",
+      "min": 0,
+      "max": 100000,
+      "step": 500,
+      "f": "loanCaps",
+      "c": "alta",
+      "n": "Grad PLUS eliminado para nuevos estudiantes desde 1-jul-2026. No está claro si el DNP-CRNA se clasificará como 'profesional' ($50k/año)."
+    },
+    "topeTotalPosgrado": {
+      "v": 100000,
+      "l": "Tope federal acumulado – posgrado",
+      "u": "$",
+      "min": 0,
+      "max": 300000,
+      "step": 1000,
+      "f": "loanCaps",
+      "c": "alta"
+    },
+    "plazoAnios": {
+      "v": 10,
+      "l": "Plazo de repago estándar",
+      "u": "años",
+      "min": 5,
+      "max": 25,
+      "step": 1,
+      "f": "estimado",
+      "c": "media"
+    },
+    "pslfActivo": {
+      "v": true,
+      "l": "Usar PSLF cuando el empleo es sin fines de lucro",
+      "u": "bool",
+      "f": "pslf2026",
+      "c": "media",
+      "k": true
+    },
+    "pslfPagos": {
+      "v": 120,
+      "l": "Pagos calificados requeridos para PSLF",
+      "u": "meses",
+      "min": 60,
+      "max": 240,
+      "step": 12,
+      "f": "pslf2026",
+      "c": "alta"
+    },
+    "rapPagoMinimoAnual": {
+      "v": 120,
+      "l": "Pago mínimo RAP ($10/mes)",
+      "u": "$",
+      "min": 0,
+      "max": 1200,
+      "step": 12,
+      "f": "pslf2026",
+      "c": "alta"
+    }
+  },
+  "vivienda": {
+    "configuracion": {
+      "v": "duplex",
+      "l": "Configuración de vivienda",
+      "u": "opcion",
+      "opciones": {
+        "duplex": "Dúplex (yo en una unidad, ellas en la otra)",
+        "inlaw": "Casa grande con in-law suite",
+        "dosCasas": "Dos casas pequeñas cercanas",
+        "casaAdu": "Casa + ADU construido después",
+        "multi": "Multifamiliar 3-4 unidades (rentar 1-2)"
+      },
+      "f": "estimado",
+      "c": "alta"
+    },
+    "tasaHipoteca": {
+      "v": 0.07,
+      "l": "Tasa hipotecaria 30 años",
+      "u": "%",
+      "min": 0.03,
+      "max": 0.1,
+      "step": 0.0025,
+      "f": "freddie",
+      "c": "media",
+      "k": true,
+      "n": "Freddie Mac: 7.32% el 22-oct-2026; se usa 7.0% suponiendo leve baja."
+    },
+    "plazoHipoteca": {
+      "v": 30,
+      "l": "Plazo hipoteca",
+      "u": "años",
+      "min": 10,
+      "max": 30,
+      "step": 5,
+      "f": "estimado",
+      "c": "alta"
+    },
+    "enganchePct": {
+      "v": 0.1,
+      "l": "Enganche",
+      "u": "%",
+      "min": 0.035,
+      "max": 0.5,
+      "step": 0.005,
+      "f": "estimado",
+      "c": "media",
+      "k": true,
+      "n": "FHA permite 3.5% y Fannie Mae 5% en 2-4 unidades ocupadas por el dueño; 10% por defecto."
+    },
+    "cierrePct": {
+      "v": 0.03,
+      "l": "Costos de cierre",
+      "u": "%",
+      "min": 0,
+      "max": 0.06,
+      "step": 0.0025,
+      "f": "estimado",
+      "c": "media",
+      "e": true
+    },
+    "pmiTasa": {
+      "v": 0.006,
+      "l": "PMI anual si enganche < 20%",
+      "u": "%",
+      "min": 0,
+      "max": 0.02,
+      "step": 0.0005,
+      "f": "estimado",
+      "c": "media",
+      "e": true
+    },
+    "mantenimientoPct": {
+      "v": 0.01,
+      "l": "Mantenimiento anual (% del valor)",
+      "u": "%",
+      "min": 0,
+      "max": 0.03,
+      "step": 0.0025,
+      "f": "estimado",
+      "c": "media",
+      "e": true
+    },
+    "apreciacion": {
+      "v": 0.03,
+      "l": "Apreciación anual de vivienda",
+      "u": "%",
+      "min": -0.03,
+      "max": 0.08,
+      "step": 0.0025,
+      "f": "estimado",
+      "c": "baja",
+      "e": true,
+      "k": true
+    },
+    "inflacionSeguro": {
+      "v": 0.05,
+      "l": "Aumento anual del seguro de vivienda",
+      "u": "%",
+      "min": 0,
+      "max": 0.15,
+      "step": 0.005,
+      "f": "insurance",
+      "c": "media",
+      "e": true,
+      "n": "TX +8.7% y FL +6.8% en 2026 según Insurance.com."
+    },
+    "dtiMax": {
+      "v": 0.43,
+      "l": "Máximo (costo de vivienda + deudas) / ingreso bruto mensual",
+      "u": "%",
+      "min": 0.2,
+      "max": 0.5,
+      "step": 0.01,
+      "f": "estimado",
+      "c": "media",
+      "e": true,
+      "n": "Regla típica de aprobación: 43% de DTI total (FHA/Fannie con AUS puede llegar a ~45-50%). El aporte de mamá/tía cuenta al 75% si hay unidad separada con contrato."
+    },
+    "prepagoPct": {
+      "v": 0.6,
+      "l": "% del ahorro anual destinado a prepagar hipoteca",
+      "u": "%",
+      "min": 0,
+      "max": 1,
+      "step": 0.05,
+      "f": "estimado",
+      "c": "media",
+      "k": true,
+      "n": "Meta: vivienda pagada lo antes posible."
+    },
+    "anioMinCompra": {
+      "v": 2027,
+      "l": "Año más temprano de compra",
+      "u": "año",
+      "min": 2027,
+      "max": 2045,
+      "step": 1,
+      "f": "estimado",
+      "c": "media"
+    },
+    "vacancia": {
+      "v": 0.08,
+      "l": "Vacancia en unidades rentadas",
+      "u": "%",
+      "min": 0,
+      "max": 0.3,
+      "step": 0.01,
+      "f": "estimado",
+      "c": "media",
+      "e": true
+    },
+    "gestionPct": {
+      "v": 0.08,
+      "l": "Gestión/reparaciones de unidades rentadas (% renta)",
+      "u": "%",
+      "min": 0,
+      "max": 0.3,
+      "step": 0.01,
+      "f": "estimado",
+      "c": "media",
+      "e": true
+    },
+    "aduRetrasoAnios": {
+      "v": 3,
+      "l": "Casa+ADU: años tras compra para construir ADU",
+      "u": "años",
+      "min": 0,
+      "max": 10,
+      "step": 1,
+      "f": "estimado",
+      "c": "media",
+      "e": true
+    },
+    "prestamoMedico": {
+      "v": true,
+      "l": "Usar 'physician loan' (5% enganche, sin PMI) al ser attending",
+      "u": "bool",
+      "f": "estimado",
+      "c": "media"
+    }
+  },
+  "ubicaciones": {
+    "miami": {
+      "nombre": "Miami / Sur de Florida",
+      "estado": "FL",
+      "impuesto": "none",
+      "nyc": false,
+      "cercaFamilia": false,
+      "compacta": "Válida: FL es estado NLC. Ojo: viviendo en FL tu licencia multiestado debería ser de FL (estado de residencia primaria), no la de TX.",
+      "notas": "Seguros muy caros; dúplex escasos y caros; mamá y tía tendrían que mudarse desde DFW.",
+      "factorRN": {
+        "v": 0.937,
+        "l": "Factor salarial RN vs nacional",
+        "u": "x",
+        "min": 0.6,
+        "max": 1.6,
+        "step": 0.005,
+        "f": "rnMiami",
+        "c": "media"
+      },
+      "factorMD": {
+        "v": 0.97,
+        "l": "Factor salarial médico vs nacional",
+        "u": "x",
+        "min": 0.6,
+        "max": 1.5,
+        "step": 0.01,
+        "f": "doximity2026",
+        "c": "baja",
+        "e": true
+      },
+      "residentePGY1": {
+        "v": 67400,
+        "l": "Salario PGY-1 2026",
+        "u": "$",
+        "min": 40000,
+        "max": 110000,
+        "step": 100,
+        "f": "aamcStipend",
+        "c": "media",
+        "n": "AAMC 2025 región Sur $65,076 + ~3.5%."
+      },
+      "gastosVida": {
+        "v": 31000,
+        "l": "Gastos de vida anuales (sin vivienda)",
+        "u": "$",
+        "min": 10000,
+        "max": 80000,
+        "step": 500,
+        "f": "estimado",
+        "c": "baja",
+        "e": true
+      },
+      "rentaMensual": {
+        "v": 2250,
+        "l": "Renta propia mensual antes de comprar (1 hab.)",
+        "u": "$",
+        "min": 0,
+        "max": 6000,
+        "step": 50,
+        "f": "estimado",
+        "c": "baja",
+        "e": true
+      },
+      "seguroPct": {
+        "v": 0.013,
+        "l": "Seguro de vivienda (% del valor/año)",
+        "u": "%",
+        "min": 0,
+        "max": 0.04,
+        "step": 0.0005,
+        "f": "insurance",
+        "c": "media",
+        "e": true,
+        "n": "Promedio FL $8,471; Miami-Dade más alto. Incluye viento/huracán; sin flood."
+      },
+      "impuestoPropPct": {
+        "v": 0.016,
+        "l": "Impuesto a la propiedad efectivo",
+        "u": "%",
+        "min": 0,
+        "max": 0.04,
+        "step": 0.0005,
+        "f": "estimado",
+        "c": "baja",
+        "e": true
+      },
+      "factorMatch": {
+        "v": 0.85,
+        "l": "Facilidad de match IMG si te limitas a la región",
+        "u": "x",
+        "min": 0.3,
+        "max": 1.5,
+        "step": 0.05,
+        "f": "estimado",
+        "c": "baja",
+        "e": true
+      },
+      "precios": {
+        "duplex": {
+          "v": 850000,
+          "l": "Precio dúplex",
+          "u": "$",
+          "min": 100000,
+          "max": 3000000,
+          "step": 5000,
+          "f": "miamiHome",
+          "c": "baja",
+          "e": true
+        },
+        "inlaw": {
+          "v": 950000,
+          "l": "Precio casa con in-law suite",
+          "u": "$",
+          "min": 100000,
+          "max": 3000000,
+          "step": 5000,
+          "f": "miamiHome",
+          "c": "baja",
+          "e": true
+        },
+        "dosCasas": {
+          "v": 1150000,
+          "l": "Precio dos casas pequeñas (total)",
+          "u": "$",
+          "min": 100000,
+          "max": 4000000,
+          "step": 5000,
+          "f": "miamiHome",
+          "c": "baja",
+          "e": true
+        },
+        "casaAdu": {
+          "v": 700000,
+          "l": "Precio casa (sin ADU)",
+          "u": "$",
+          "min": 100000,
+          "max": 3000000,
+          "step": 5000,
+          "f": "miamiHome",
+          "c": "media",
+          "e": true
+        },
+        "aduCosto": {
+          "v": 180000,
+          "l": "Costo de construir ADU",
+          "u": "$",
+          "min": 30000,
+          "max": 500000,
+          "step": 5000,
+          "f": "estimado",
+          "c": "baja",
+          "e": true
+        },
+        "multi": {
+          "v": 1500000,
+          "l": "Precio fourplex",
+          "u": "$",
+          "min": 100000,
+          "max": 5000000,
+          "step": 5000,
+          "f": "estimado",
+          "c": "baja",
+          "e": true
+        }
+      },
+      "rentaUnidad": {
+        "v": 2300,
+        "l": "Renta mensual por unidad rentada (multifamiliar)",
+        "u": "$",
+        "min": 0,
+        "max": 6000,
+        "step": 50,
+        "f": "estimado",
+        "c": "baja",
+        "e": true
+      }
+    },
+    "dfw": {
+      "nombre": "Dallas–Fort Worth",
+      "estado": "TX",
+      "impuesto": "none",
+      "nyc": false,
+      "cercaFamilia": true,
+      "compacta": "Válida: tu licencia compacta es de TX; al mudarte TX sería tu estado de residencia (lo ideal).",
+      "notas": "Donde viven mamá y tía. Sin impuesto estatal; impuesto predial alto (~1.8–2.2%).",
+      "factorRN": {
+        "v": 0.976,
+        "l": "Factor salarial RN vs nacional",
+        "u": "x",
+        "min": 0.6,
+        "max": 1.6,
+        "step": 0.005,
+        "f": "rnTX",
+        "c": "media",
+        "n": "≈ $99,000 / $101,420."
+      },
+      "factorMD": {
+        "v": 1.02,
+        "l": "Factor salarial médico vs nacional",
+        "u": "x",
+        "min": 0.6,
+        "max": 1.5,
+        "step": 0.01,
+        "f": "doximity2026",
+        "c": "baja",
+        "e": true
+      },
+      "residentePGY1": {
+        "v": 67400,
+        "l": "Salario PGY-1 2026",
+        "u": "$",
+        "min": 40000,
+        "max": 110000,
+        "step": 100,
+        "f": "aamcStipend",
+        "c": "media"
+      },
+      "gastosVida": {
+        "v": 28500,
+        "l": "Gastos de vida anuales (sin vivienda)",
+        "u": "$",
+        "min": 10000,
+        "max": 80000,
+        "step": 500,
+        "f": "estimado",
+        "c": "baja",
+        "e": true
+      },
+      "rentaMensual": {
+        "v": 1400,
+        "l": "Renta propia mensual antes de comprar (1 hab.)",
+        "u": "$",
+        "min": 0,
+        "max": 6000,
+        "step": 50,
+        "f": "estimado",
+        "c": "baja",
+        "e": true
+      },
+      "seguroPct": {
+        "v": 0.011,
+        "l": "Seguro de vivienda (% del valor/año)",
+        "u": "%",
+        "min": 0,
+        "max": 0.04,
+        "step": 0.0005,
+        "f": "insurance",
+        "c": "media",
+        "e": true,
+        "n": "Promedio TX $4,582 (granizo/viento)."
+      },
+      "impuestoPropPct": {
+        "v": 0.019,
+        "l": "Impuesto a la propiedad efectivo",
+        "u": "%",
+        "min": 0,
+        "max": 0.04,
+        "step": 0.0005,
+        "f": "propTX",
+        "c": "media"
+      },
+      "factorMatch": {
+        "v": 0.9,
+        "l": "Facilidad de match IMG si te limitas a la región",
+        "u": "x",
+        "min": 0.3,
+        "max": 1.5,
+        "step": 0.05,
+        "f": "estimado",
+        "c": "baja",
+        "e": true
+      },
+      "precios": {
+        "duplex": {
+          "v": 520000,
+          "l": "Precio dúplex",
+          "u": "$",
+          "min": 100000,
+          "max": 3000000,
+          "step": 5000,
+          "f": "dfwDuplex",
+          "c": "media",
+          "e": true,
+          "n": "Listados: $525k (FW, 2009) a $699k (nuevo, Midlothian)."
+        },
+        "inlaw": {
+          "v": 560000,
+          "l": "Precio casa con in-law suite",
+          "u": "$",
+          "min": 100000,
+          "max": 3000000,
+          "step": 5000,
+          "f": "dfwHome",
+          "c": "baja",
+          "e": true
+        },
+        "dosCasas": {
+          "v": 640000,
+          "l": "Precio dos casas pequeñas (total)",
+          "u": "$",
+          "min": 100000,
+          "max": 4000000,
+          "step": 5000,
+          "f": "dfwHome",
+          "c": "media",
+          "e": true
+        },
+        "casaAdu": {
+          "v": 420000,
+          "l": "Precio casa (sin ADU)",
+          "u": "$",
+          "min": 100000,
+          "max": 3000000,
+          "step": 5000,
+          "f": "dfwHome",
+          "c": "media",
+          "e": true
+        },
+        "aduCosto": {
+          "v": 140000,
+          "l": "Costo de construir ADU",
+          "u": "$",
+          "min": 30000,
+          "max": 500000,
+          "step": 5000,
+          "f": "estimado",
+          "c": "baja",
+          "e": true
+        },
+        "multi": {
+          "v": 900000,
+          "l": "Precio fourplex",
+          "u": "$",
+          "min": 100000,
+          "max": 5000000,
+          "step": 5000,
+          "f": "estimado",
+          "c": "baja",
+          "e": true
+        }
+      },
+      "rentaUnidad": {
+        "v": 1750,
+        "l": "Renta mensual por unidad rentada (multifamiliar)",
+        "u": "$",
+        "min": 0,
+        "max": 6000,
+        "step": 50,
+        "f": "dfwDuplex",
+        "c": "media",
+        "e": true
+      }
+    },
+    "houston": {
+      "nombre": "Houston",
+      "estado": "TX",
+      "impuesto": "none",
+      "nyc": false,
+      "cercaFamilia": false,
+      "compacta": "Válida: licencia compacta TX.",
+      "notas": "TX sin impuesto estatal, Texas Medical Center (muchos programas y empleos RN), vivienda más barata que DFW; ~4 h de mamá y tía. Riesgo de huracán/inundación.",
+      "factorRN": {
+        "v": 0.984,
+        "l": "Factor salarial RN vs nacional",
+        "u": "x",
+        "min": 0.6,
+        "max": 1.6,
+        "step": 0.005,
+        "f": "rnTX",
+        "c": "media"
+      },
+      "factorMD": {
+        "v": 1.02,
+        "l": "Factor salarial médico vs nacional",
+        "u": "x",
+        "min": 0.6,
+        "max": 1.5,
+        "step": 0.01,
+        "f": "doximity2026",
+        "c": "baja",
+        "e": true
+      },
+      "residentePGY1": {
+        "v": 67400,
+        "l": "Salario PGY-1 2026",
+        "u": "$",
+        "min": 40000,
+        "max": 110000,
+        "step": 100,
+        "f": "aamcStipend",
+        "c": "media"
+      },
+      "gastosVida": {
+        "v": 28000,
+        "l": "Gastos de vida anuales (sin vivienda)",
+        "u": "$",
+        "min": 10000,
+        "max": 80000,
+        "step": 500,
+        "f": "estimado",
+        "c": "baja",
+        "e": true
+      },
+      "rentaMensual": {
+        "v": 1300,
+        "l": "Renta propia mensual antes de comprar (1 hab.)",
+        "u": "$",
+        "min": 0,
+        "max": 6000,
+        "step": 50,
+        "f": "estimado",
+        "c": "baja",
+        "e": true
+      },
+      "seguroPct": {
+        "v": 0.012,
+        "l": "Seguro de vivienda (% del valor/año)",
+        "u": "%",
+        "min": 0,
+        "max": 0.04,
+        "step": 0.0005,
+        "f": "insurance",
+        "c": "media",
+        "e": true
+      },
+      "impuestoPropPct": {
+        "v": 0.02,
+        "l": "Impuesto a la propiedad efectivo",
+        "u": "%",
+        "min": 0,
+        "max": 0.04,
+        "step": 0.0005,
+        "f": "estimado",
+        "c": "media",
+        "e": true
+      },
+      "factorMatch": {
+        "v": 0.95,
+        "l": "Facilidad de match IMG si te limitas a la región",
+        "u": "x",
+        "min": 0.3,
+        "max": 1.5,
+        "step": 0.05,
+        "f": "estimado",
+        "c": "baja",
+        "e": true
+      },
+      "precios": {
+        "duplex": {
+          "v": 460000,
+          "l": "Precio dúplex",
+          "u": "$",
+          "min": 100000,
+          "max": 3000000,
+          "step": 5000,
+          "f": "houHome",
+          "c": "baja",
+          "e": true
+        },
+        "inlaw": {
+          "v": 500000,
+          "l": "Precio casa con in-law suite",
+          "u": "$",
+          "min": 100000,
+          "max": 3000000,
+          "step": 5000,
+          "f": "houHome",
+          "c": "baja",
+          "e": true
+        },
+        "dosCasas": {
+          "v": 580000,
+          "l": "Precio dos casas pequeñas (total)",
+          "u": "$",
+          "min": 100000,
+          "max": 4000000,
+          "step": 5000,
+          "f": "houHome",
+          "c": "media",
+          "e": true
+        },
+        "casaAdu": {
+          "v": 380000,
+          "l": "Precio casa (sin ADU)",
+          "u": "$",
+          "min": 100000,
+          "max": 3000000,
+          "step": 5000,
+          "f": "houHome",
+          "c": "media",
+          "e": true
+        },
+        "aduCosto": {
+          "v": 130000,
+          "l": "Costo de construir ADU",
+          "u": "$",
+          "min": 30000,
+          "max": 500000,
+          "step": 5000,
+          "f": "estimado",
+          "c": "baja",
+          "e": true
+        },
+        "multi": {
+          "v": 800000,
+          "l": "Precio fourplex",
+          "u": "$",
+          "min": 100000,
+          "max": 5000000,
+          "step": 5000,
+          "f": "estimado",
+          "c": "baja",
+          "e": true
+        }
+      },
+      "rentaUnidad": {
+        "v": 1600,
+        "l": "Renta mensual por unidad rentada (multifamiliar)",
+        "u": "$",
+        "min": 0,
+        "max": 6000,
+        "step": 50,
+        "f": "estimado",
+        "c": "baja",
+        "e": true
+      }
+    },
+    "nyc": {
+      "nombre": "Nueva York (Queens/Bronx)",
+      "estado": "NY",
+      "impuesto": "ny",
+      "nyc": true,
+      "cercaFamilia": false,
+      "compacta": "NO válida: NY no pertenece al NLC. Necesitas licencia RN de NY por endoso (trámite de semanas).",
+      "notas": "El estado con más puestos de IM para IMGs (37% non-US IMG). Salarios RN altos pero impuestos estatal+municipal y vivienda muy caros.",
+      "factorRN": {
+        "v": 1.179,
+        "l": "Factor salarial RN vs nacional",
+        "u": "x",
+        "min": 0.6,
+        "max": 1.6,
+        "step": 0.005,
+        "f": "rnNY",
+        "c": "media"
+      },
+      "factorMD": {
+        "v": 0.93,
+        "l": "Factor salarial médico vs nacional",
+        "u": "x",
+        "min": 0.6,
+        "max": 1.5,
+        "step": 0.01,
+        "f": "doximity2026",
+        "c": "baja",
+        "e": true
+      },
+      "residentePGY1": {
+        "v": 80000,
+        "l": "Salario PGY-1 2026",
+        "u": "$",
+        "min": 40000,
+        "max": 110000,
+        "step": 100,
+        "f": "aamcStipend",
+        "c": "media",
+        "n": "AAMC 2025 Noreste $74,994; hospitales de NYC con contrato CIR pagan más."
+      },
+      "gastosVida": {
+        "v": 30000,
+        "l": "Gastos de vida anuales (sin vivienda)",
+        "u": "$",
+        "min": 10000,
+        "max": 80000,
+        "step": 500,
+        "f": "estimado",
+        "c": "baja",
+        "e": true
+      },
+      "rentaMensual": {
+        "v": 2600,
+        "l": "Renta propia mensual antes de comprar (1 hab.)",
+        "u": "$",
+        "min": 0,
+        "max": 6000,
+        "step": 50,
+        "f": "estimado",
+        "c": "baja",
+        "e": true
+      },
+      "seguroPct": {
+        "v": 0.003,
+        "l": "Seguro de vivienda (% del valor/año)",
+        "u": "%",
+        "min": 0,
+        "max": 0.04,
+        "step": 0.0005,
+        "f": "insurance",
+        "c": "baja",
+        "e": true
+      },
+      "impuestoPropPct": {
+        "v": 0.009,
+        "l": "Impuesto a la propiedad efectivo",
+        "u": "%",
+        "min": 0,
+        "max": 0.04,
+        "step": 0.0005,
+        "f": "estimado",
+        "c": "baja",
+        "e": true
+      },
+      "factorMatch": {
+        "v": 1.25,
+        "l": "Facilidad de match IMG si te limitas a la región",
+        "u": "x",
+        "min": 0.3,
+        "max": 1.5,
+        "step": 0.05,
+        "f": "imgFriendly",
+        "c": "media",
+        "e": true
+      },
+      "precios": {
+        "duplex": {
+          "v": 1250000,
+          "l": "Precio casa bifamiliar",
+          "u": "$",
+          "min": 100000,
+          "max": 4000000,
+          "step": 5000,
+          "f": "estimado",
+          "c": "baja",
+          "e": true
+        },
+        "inlaw": {
+          "v": 1150000,
+          "l": "Precio casa con in-law suite",
+          "u": "$",
+          "min": 100000,
+          "max": 4000000,
+          "step": 5000,
+          "f": "estimado",
+          "c": "baja",
+          "e": true
+        },
+        "dosCasas": {
+          "v": 1900000,
+          "l": "Precio dos casas pequeñas (total)",
+          "u": "$",
+          "min": 100000,
+          "max": 5000000,
+          "step": 5000,
+          "f": "estimado",
+          "c": "baja",
+          "e": true
+        },
+        "casaAdu": {
+          "v": 950000,
+          "l": "Precio casa (sin ADU)",
+          "u": "$",
+          "min": 100000,
+          "max": 4000000,
+          "step": 5000,
+          "f": "estimado",
+          "c": "baja",
+          "e": true
+        },
+        "aduCosto": {
+          "v": 250000,
+          "l": "Costo de construir ADU",
+          "u": "$",
+          "min": 30000,
+          "max": 600000,
+          "step": 5000,
+          "f": "estimado",
+          "c": "baja",
+          "e": true
+        },
+        "multi": {
+          "v": 1800000,
+          "l": "Precio 3-4 familias",
+          "u": "$",
+          "min": 100000,
+          "max": 6000000,
+          "step": 5000,
+          "f": "estimado",
+          "c": "baja",
+          "e": true
+        }
+      },
+      "rentaUnidad": {
+        "v": 2600,
+        "l": "Renta mensual por unidad rentada (multifamiliar)",
+        "u": "$",
+        "min": 0,
+        "max": 6000,
+        "step": 50,
+        "f": "estimado",
+        "c": "baja",
+        "e": true
+      }
+    },
+    "cleveland": {
+      "nombre": "Cleveland / NE de Ohio",
+      "estado": "OH",
+      "impuesto": "oh",
+      "nyc": false,
+      "cercaFamilia": false,
+      "compacta": "Válida: Ohio es miembro del NLC (implementado 2023). Al mudarte, Ohio sería tu estado de residencia.",
+      "notas": "Vivienda muy barata, Cleveland Clinic/UH/MetroHealth, muchos programas comunitarios de IM amigables con IMGs en OH/MI/PA. Invierno duro, lejos de la familia.",
+      "factorRN": {
+        "v": 0.868,
+        "l": "Factor salarial RN vs nacional",
+        "u": "x",
+        "min": 0.6,
+        "max": 1.6,
+        "step": 0.005,
+        "f": "rnCLE",
+        "c": "media",
+        "e": true,
+        "n": "Media estimada ~$88k a partir de mediana $83,940."
+      },
+      "factorMD": {
+        "v": 1.03,
+        "l": "Factor salarial médico vs nacional",
+        "u": "x",
+        "min": 0.6,
+        "max": 1.5,
+        "step": 0.01,
+        "f": "doximity2026",
+        "c": "baja",
+        "e": true
+      },
+      "residentePGY1": {
+        "v": 71000,
+        "l": "Salario PGY-1 2026",
+        "u": "$",
+        "min": 40000,
+        "max": 110000,
+        "step": 100,
+        "f": "aamcStipend",
+        "c": "media",
+        "n": "AAMC 2025 región Central $68,580 + ~3.5%."
+      },
+      "gastosVida": {
+        "v": 25500,
+        "l": "Gastos de vida anuales (sin vivienda)",
+        "u": "$",
+        "min": 10000,
+        "max": 80000,
+        "step": 500,
+        "f": "estimado",
+        "c": "baja",
+        "e": true
+      },
+      "rentaMensual": {
+        "v": 1100,
+        "l": "Renta propia mensual antes de comprar (1 hab.)",
+        "u": "$",
+        "min": 0,
+        "max": 6000,
+        "step": 50,
+        "f": "estimado",
+        "c": "baja",
+        "e": true
+      },
+      "seguroPct": {
+        "v": 0.006,
+        "l": "Seguro de vivienda (% del valor/año)",
+        "u": "%",
+        "min": 0,
+        "max": 0.04,
+        "step": 0.0005,
+        "f": "insurance",
+        "c": "baja",
+        "e": true
+      },
+      "impuestoPropPct": {
+        "v": 0.0172,
+        "l": "Impuesto a la propiedad efectivo",
+        "u": "%",
+        "min": 0,
+        "max": 0.04,
+        "step": 0.0005,
+        "f": "cleHome",
+        "c": "media"
+      },
+      "factorMatch": {
+        "v": 1.15,
+        "l": "Facilidad de match IMG si te limitas a la región",
+        "u": "x",
+        "min": 0.3,
+        "max": 1.5,
+        "step": 0.05,
+        "f": "estimado",
+        "c": "baja",
+        "e": true
+      },
+      "precios": {
+        "duplex": {
+          "v": 260000,
+          "l": "Precio dúplex ('up-down double')",
+          "u": "$",
+          "min": 50000,
+          "max": 3000000,
+          "step": 5000,
+          "f": "cleHome",
+          "c": "baja",
+          "e": true
+        },
+        "inlaw": {
+          "v": 340000,
+          "l": "Precio casa con in-law suite",
+          "u": "$",
+          "min": 50000,
+          "max": 3000000,
+          "step": 5000,
+          "f": "cleHome",
+          "c": "baja",
+          "e": true
+        },
+        "dosCasas": {
+          "v": 400000,
+          "l": "Precio dos casas pequeñas (total)",
+          "u": "$",
+          "min": 50000,
+          "max": 4000000,
+          "step": 5000,
+          "f": "cleHome",
+          "c": "media",
+          "e": true
+        },
+        "casaAdu": {
+          "v": 240000,
+          "l": "Precio casa (sin ADU)",
+          "u": "$",
+          "min": 50000,
+          "max": 3000000,
+          "step": 5000,
+          "f": "cleHome",
+          "c": "media",
+          "e": true
+        },
+        "aduCosto": {
+          "v": 120000,
+          "l": "Costo de construir ADU",
+          "u": "$",
+          "min": 30000,
+          "max": 500000,
+          "step": 5000,
+          "f": "estimado",
+          "c": "baja",
+          "e": true
+        },
+        "multi": {
+          "v": 420000,
+          "l": "Precio fourplex",
+          "u": "$",
+          "min": 50000,
+          "max": 5000000,
+          "step": 5000,
+          "f": "estimado",
+          "c": "baja",
+          "e": true
+        }
+      },
+      "rentaUnidad": {
+        "v": 1100,
+        "l": "Renta mensual por unidad rentada (multifamiliar)",
+        "u": "$",
+        "min": 0,
+        "max": 6000,
+        "step": 50,
+        "f": "estimado",
+        "c": "baja",
+        "e": true
+      }
+    }
+  },
+  "configVivienda": {
+    "duplex": {
+      "unidadesRentadas": 0,
+      "nota": "Una unidad para ti, otra para mamá y tía."
+    },
+    "inlaw": {
+      "unidadesRentadas": 0,
+      "nota": "Casa grande con suite independiente."
+    },
+    "dosCasas": {
+      "unidadesRentadas": 0,
+      "nota": "Dos hipotecas o una compra combinada; mayor costo y mantenimiento."
+    },
+    "casaAdu": {
+      "unidadesRentadas": 0,
+      "nota": "Compra más barata; el ADU se construye años después (préstamo a 15 años)."
+    },
+    "multi": {
+      "unidadesRentadas": 2,
+      "nota": "4 unidades: tú, ellas y 2 rentadas (la renta paga parte de la hipoteca)."
+    }
+  },
+  "roles": {
+    "cm": {
+      "aumento": {
+        "v": 0.03,
+        "l": "Aumento anual case manager",
+        "u": "%",
+        "min": 0,
+        "max": 0.1,
+        "step": 0.0025,
+        "f": "estimado",
+        "c": "media",
+        "e": true,
+        "n": "El salario de case manager se calibra con tu tarifa actual ($/h × 2080) ajustada por el factor RN de la ubicación vs Miami."
+      },
+      "grupo": "rn"
+    },
+    "ur": {
+      "base": {
+        "v": 92000,
+        "l": "Utilization review / payer-side remoto (CVS/Aetna)",
+        "u": "$",
+        "min": 40000,
+        "max": 200000,
+        "step": 500,
+        "f": "estimado",
+        "c": "baja",
+        "e": true
+      },
+      "aumento": {
+        "v": 0.03,
+        "l": "Aumento anual UR",
+        "u": "%",
+        "min": 0,
+        "max": 0.1,
+        "step": 0.0025,
+        "f": "estimado",
+        "c": "media",
+        "e": true
+      },
+      "grupo": "remoto"
+    },
+    "icuNuevo": {
+      "base": {
+        "v": 92000,
+        "l": "RN ICU años 1-2 (incl. diferencial nocturno)",
+        "u": "$",
+        "min": 40000,
+        "max": 200000,
+        "step": 500,
+        "f": "blsRN",
+        "c": "media",
+        "e": true,
+        "n": "~0.85× media RN + ~8% diferencial nocturno/fines de semana."
+      },
+      "aumento": {
+        "v": 0.035,
+        "l": "Aumento anual RN bedside",
+        "u": "%",
+        "min": 0,
+        "max": 0.1,
+        "step": 0.0025,
+        "f": "estimado",
+        "c": "media",
+        "e": true
+      },
+      "grupo": "rn"
+    },
+    "icuExp": {
+      "base": {
+        "v": 108000,
+        "l": "RN ICU con 3+ años (incl. diferenciales)",
+        "u": "$",
+        "min": 40000,
+        "max": 220000,
+        "step": 500,
+        "f": "blsRN",
+        "c": "media",
+        "e": true
+      },
+      "aumento": {
+        "v": 0.03,
+        "l": "Aumento anual RN ICU experimentado",
+        "u": "%",
+        "min": 0,
+        "max": 0.1,
+        "step": 0.0025,
+        "f": "estimado",
+        "c": "media",
+        "e": true
+      },
+      "grupo": "rn"
+    },
+    "travel": {
+      "base": {
+        "v": 2300,
+        "l": "Travel ICU: pago semanal bruto (incl. stipends)",
+        "u": "$/sem",
+        "min": 1000,
+        "max": 6000,
+        "step": 25,
+        "f": "travel",
+        "c": "media",
+        "k": true
+      },
+      "aumento": {
+        "v": 0.02,
+        "l": "Aumento anual travel",
+        "u": "%",
+        "min": -0.05,
+        "max": 0.1,
+        "step": 0.0025,
+        "f": "estimado",
+        "c": "baja",
+        "e": true
+      },
+      "grupo": "nacional"
+    },
+    "cdi": {
+      "base": {
+        "v": 95000,
+        "l": "CDI specialist / clinical liaison / informática",
+        "u": "$",
+        "min": 40000,
+        "max": 200000,
+        "step": 500,
+        "f": "cdi",
+        "c": "media",
+        "e": true,
+        "n": "El MD extranjero es muy valorado en CDI; muchos puestos aceptan MD sin bedside."
+      },
+      "aumento": {
+        "v": 0.03,
+        "l": "Aumento anual CDI",
+        "u": "%",
+        "min": 0,
+        "max": 0.1,
+        "step": 0.0025,
+        "f": "estimado",
+        "c": "media",
+        "e": true
+      },
+      "grupo": "remoto"
+    },
+    "manager": {
+      "base": {
+        "v": 120000,
+        "l": "Nurse manager",
+        "u": "$",
+        "min": 50000,
+        "max": 250000,
+        "step": 500,
+        "f": "mgr",
+        "c": "media",
+        "e": true
+      },
+      "aumento": {
+        "v": 0.03,
+        "l": "Aumento anual manager",
+        "u": "%",
+        "min": 0,
+        "max": 0.1,
+        "step": 0.0025,
+        "f": "estimado",
+        "c": "media",
+        "e": true
+      },
+      "grupo": "rn"
+    },
+    "educador": {
+      "base": {
+        "v": 102000,
+        "l": "Educador clínico",
+        "u": "$",
+        "min": 50000,
+        "max": 200000,
+        "step": 500,
+        "f": "mgr",
+        "c": "media",
+        "e": true
+      },
+      "aumento": {
+        "v": 0.03,
+        "l": "Aumento anual educador",
+        "u": "%",
+        "min": 0,
+        "max": 0.1,
+        "step": 0.0025,
+        "f": "estimado",
+        "c": "media",
+        "e": true
+      },
+      "grupo": "rn"
+    },
+    "injector": {
+      "base": {
+        "v": 90000,
+        "l": "Nurse injector (estética) ya establecido",
+        "u": "$",
+        "min": 30000,
+        "max": 250000,
+        "step": 500,
+        "f": "injector",
+        "c": "baja",
+        "e": true,
+        "n": "Mucho componente de comisión; año 1 ~70% de esta cifra."
+      },
+      "aumento": {
+        "v": 0.03,
+        "l": "Aumento anual injector",
+        "u": "%",
+        "min": -0.05,
+        "max": 0.15,
+        "step": 0.0025,
+        "f": "estimado",
+        "c": "baja",
+        "e": true
+      },
+      "grupo": "rn"
+    },
+    "crna": {
+      "base": {
+        "v": 240000,
+        "l": "CRNA",
+        "u": "$",
+        "min": 120000,
+        "max": 400000,
+        "step": 1000,
+        "f": "crnaBLS",
+        "c": "alta",
+        "n": "BLS mayo 2025 mediana $236,590."
+      },
+      "aumento": {
+        "v": 0.03,
+        "l": "Aumento anual CRNA",
+        "u": "%",
+        "min": 0,
+        "max": 0.1,
+        "step": 0.0025,
+        "f": "estimado",
+        "c": "media",
+        "e": true
+      },
+      "grupo": "crna"
+    },
+    "fnp": {
+      "base": {
+        "v": 128000,
+        "l": "NP familiar (FNP)",
+        "u": "$",
+        "min": 70000,
+        "max": 250000,
+        "step": 500,
+        "f": "npBLS",
+        "c": "media",
+        "n": "BLS 2025 mediana NP $132,300; FNP recién graduado algo menos."
+      },
+      "aumento": {
+        "v": 0.03,
+        "l": "Aumento anual FNP",
+        "u": "%",
+        "min": 0,
+        "max": 0.1,
+        "step": 0.0025,
+        "f": "estimado",
+        "c": "media",
+        "e": true
+      },
+      "grupo": "rn"
+    },
+    "pmhnp": {
+      "base": {
+        "v": 145000,
+        "l": "NP psiquiátrico (PMHNP)",
+        "u": "$",
+        "min": 70000,
+        "max": 300000,
+        "step": 500,
+        "f": "pmhnp",
+        "c": "media"
+      },
+      "aumento": {
+        "v": 0.03,
+        "l": "Aumento anual PMHNP",
+        "u": "%",
+        "min": 0,
+        "max": 0.1,
+        "step": 0.0025,
+        "f": "estimado",
+        "c": "media",
+        "e": true
+      },
+      "grupo": "rn"
+    },
+    "residente": {
+      "base": {
+        "v": 1,
+        "l": "(Residente: ver salario PGY-1 por ubicación)",
+        "u": "x",
+        "min": 1,
+        "max": 1,
+        "step": 1,
+        "f": "aamcStipend",
+        "c": "media"
+      },
+      "aumento": {
+        "v": 0.04,
+        "l": "Aumento por año de residencia (PGY2, PGY3)",
+        "u": "%",
+        "min": 0,
+        "max": 0.1,
+        "step": 0.005,
+        "f": "aamcStipend",
+        "c": "media",
+        "e": true
+      },
+      "grupo": "residente"
+    },
+    "hospitalista": {
+      "base": {
+        "v": 320000,
+        "l": "Hospitalista IM (attending)",
+        "u": "$",
+        "min": 150000,
+        "max": 500000,
+        "step": 1000,
+        "f": "medscapeIM",
+        "c": "media",
+        "e": true,
+        "k": true,
+        "n": "Medscape 2026 internistas $307k; hospitalistas suelen ganar más que IM ambulatoria."
+      },
+      "aumento": {
+        "v": 0.025,
+        "l": "Aumento anual attending",
+        "u": "%",
+        "min": 0,
+        "max": 0.1,
+        "step": 0.0025,
+        "f": "estimado",
+        "c": "media",
+        "e": true
+      },
+      "grupo": "md"
+    },
+    "fm": {
+      "base": {
+        "v": 288000,
+        "l": "Medicina familiar (attending)",
+        "u": "$",
+        "min": 150000,
+        "max": 450000,
+        "step": 1000,
+        "f": "medscapeFM",
+        "c": "media"
+      },
+      "aumento": {
+        "v": 0.025,
+        "l": "Aumento anual FM",
+        "u": "%",
+        "min": 0,
+        "max": 0.1,
+        "step": 0.0025,
+        "f": "estimado",
+        "c": "media",
+        "e": true
+      },
+      "grupo": "md"
+    }
+  },
+  "tiempos": {
+    "bedsideInicioLag": {
+      "v": 0.25,
+      "l": "Meses tras BSN para entrar a programa de transición ICU",
+      "u": "años",
+      "min": 0,
+      "max": 2,
+      "step": 0.25,
+      "f": "icuTrans",
+      "c": "media",
+      "e": true,
+      "n": "Muchos programas piden 1 año de experiencia aguda; algunos (p.ej. CHI Memorial) aceptan RN experimentados sin ICU."
+    },
+    "icuAnios": {
+      "v": 2,
+      "l": "Años de ICU antes de travel/CRNA/charge",
+      "u": "años",
+      "min": 1,
+      "max": 5,
+      "step": 0.5,
+      "f": "estimado",
+      "c": "media"
+    },
+    "bonoFirmaICU": {
+      "v": 7500,
+      "l": "Bono de firma ICU",
+      "u": "$",
+      "min": 0,
+      "max": 30000,
+      "step": 500,
+      "f": "estimado",
+      "c": "baja",
+      "e": true
+    },
+    "travelAnios": {
+      "v": 3,
+      "l": "Años como travel nurse",
+      "u": "años",
+      "min": 0.5,
+      "max": 10,
+      "step": 0.5,
+      "f": "estimado",
+      "c": "media"
+    },
+    "travelSemanas": {
+      "v": 46,
+      "l": "Semanas trabajadas por año en travel",
+      "u": "sem",
+      "min": 30,
+      "max": 52,
+      "step": 1,
+      "f": "estimado",
+      "c": "media",
+      "e": true
+    },
+    "travelStipendPct": {
+      "v": 0.45,
+      "l": "Porción libre de impuestos (stipends)",
+      "u": "%",
+      "min": 0,
+      "max": 0.7,
+      "step": 0.01,
+      "f": "travel",
+      "c": "media",
+      "e": true,
+      "n": "Requiere 'tax home' real (p. ej. el dúplex en DFW)."
+    },
+    "travelGastoExtraMes": {
+      "v": 1200,
+      "l": "Gasto extra mensual en travel (doble vivienda, viajes)",
+      "u": "$",
+      "min": 0,
+      "max": 5000,
+      "step": 50,
+      "f": "estimado",
+      "c": "baja",
+      "e": true
+    },
+    "crnaLagAplicacion": {
+      "v": 0.5,
+      "l": "Tiempo extra de aplicación CRNA tras cumplir ICU",
+      "u": "años",
+      "min": 0,
+      "max": 3,
+      "step": 0.25,
+      "f": "estimado",
+      "c": "media",
+      "e": true
+    },
+    "crnaDuracion": {
+      "v": 3,
+      "l": "Duración DNP-CRNA (sin trabajar)",
+      "u": "años",
+      "min": 2,
+      "max": 4,
+      "step": 0.25,
+      "f": "crnaCost",
+      "c": "alta"
+    },
+    "crnaMatricula": {
+      "v": 120000,
+      "l": "Matrícula + cuotas totales CRNA",
+      "u": "$",
+      "min": 40000,
+      "max": 250000,
+      "step": 1000,
+      "f": "crnaCost",
+      "c": "media",
+      "k": true
+    },
+    "crnaPslf": {
+      "v": false,
+      "l": "CRNA trabaja en hospital sin fines de lucro (PSLF)",
+      "u": "bool",
+      "f": "estimado",
+      "c": "baja",
+      "e": true
+    },
+    "npInicio": {
+      "v": 2028,
+      "l": "Inicio MSN-NP part-time",
+      "u": "año",
+      "min": 2027,
+      "max": 2035,
+      "step": 0.25,
+      "f": "estimado",
+      "c": "media"
+    },
+    "npDuracion": {
+      "v": 3,
+      "l": "Duración MSN-NP part-time",
+      "u": "años",
+      "min": 2,
+      "max": 5,
+      "step": 0.25,
+      "f": "fnpCost",
+      "c": "media"
+    },
+    "npMatricula": {
+      "v": 38000,
+      "l": "Matrícula total MSN-NP",
+      "u": "$",
+      "min": 10000,
+      "max": 120000,
+      "step": 500,
+      "f": "fnpCost",
+      "c": "media"
+    },
+    "npHorasTrabajo": {
+      "v": 0.8,
+      "l": "Fracción de jornada mientras estudias NP",
+      "u": "x",
+      "min": 0.3,
+      "max": 1,
+      "step": 0.05,
+      "f": "estimado",
+      "c": "media",
+      "e": true
+    },
+    "msnLiderazgoCosto": {
+      "v": 22000,
+      "l": "MSN liderazgo/educación (part-time)",
+      "u": "$",
+      "min": 0,
+      "max": 80000,
+      "step": 500,
+      "f": "fnpCost",
+      "c": "baja",
+      "e": true
+    },
+    "injectorCurso": {
+      "v": 6000,
+      "l": "Curso/certificación de inyecciones",
+      "u": "$",
+      "min": 0,
+      "max": 30000,
+      "step": 250,
+      "f": "estimado",
+      "c": "baja",
+      "e": true
+    },
+    "cdiCertAumento": {
+      "v": 0.1,
+      "l": "Aumento CDI tras CCDS (año 2) y liderazgo (año 6)",
+      "u": "%",
+      "min": 0,
+      "max": 0.3,
+      "step": 0.01,
+      "f": "estimado",
+      "c": "baja",
+      "e": true
+    }
+  },
+  "md": {
+    "step1Fecha": {
+      "v": 2027.67,
+      "l": "Fecha Step 1 (sept 2027)",
+      "u": "año",
+      "min": 2027,
+      "max": 2030,
+      "step": 0.08,
+      "f": "estimado",
+      "c": "alta",
+      "k": true
+    },
+    "step2Gap": {
+      "v": 0.6,
+      "l": "Meses entre Step 1 y Step 2 CK",
+      "u": "años",
+      "min": 0.25,
+      "max": 2,
+      "step": 0.05,
+      "f": "estimado",
+      "c": "media",
+      "e": true
+    },
+    "dedicadoStep1": {
+      "v": 0.17,
+      "l": "Estudio dedicado sin sueldo antes de Step 1",
+      "u": "años",
+      "min": 0,
+      "max": 1,
+      "step": 0.04,
+      "f": "estimado",
+      "c": "media",
+      "e": true,
+      "n": "~2 meses."
+    },
+    "dedicadoStep2": {
+      "v": 0.12,
+      "l": "Estudio dedicado sin sueldo antes de Step 2 CK",
+      "u": "años",
+      "min": 0,
+      "max": 1,
+      "step": 0.04,
+      "f": "estimado",
+      "c": "media",
+      "e": true
+    },
+    "usceDuracion": {
+      "v": 0.25,
+      "l": "USCE (observership/externship)",
+      "u": "años",
+      "min": 0,
+      "max": 1,
+      "step": 0.04,
+      "f": "estimado",
+      "c": "media",
+      "e": true
+    },
+    "usceCostoMes": {
+      "v": 2000,
+      "l": "Costo USCE por mes (programa + estancia)",
+      "u": "$",
+      "min": 0,
+      "max": 8000,
+      "step": 100,
+      "f": "estimado",
+      "c": "baja",
+      "e": true
+    },
+    "horasEstudioSemana": {
+      "v": 20,
+      "l": "Horas de estudio/semana mientras trabajas",
+      "u": "h",
+      "min": 5,
+      "max": 50,
+      "step": 1,
+      "f": "estimado",
+      "c": "media",
+      "e": true
+    },
+    "horasTrabajoEstudiando": {
+      "v": 32,
+      "l": "Horas de trabajo/semana mientras estudias USMLE",
+      "u": "h",
+      "min": 0,
+      "max": 48,
+      "step": 4,
+      "f": "estimado",
+      "c": "media",
+      "k": true,
+      "n": "Reducir horas baja el ingreso pero mejora la probabilidad de aprobar."
+    },
+    "costoStep1": {
+      "v": 695,
+      "l": "Tarifa Step 1",
+      "u": "$",
+      "min": 0,
+      "max": 3000,
+      "step": 5,
+      "f": "usmleFees",
+      "c": "alta"
+    },
+    "costoStep2": {
+      "v": 695,
+      "l": "Tarifa Step 2 CK",
+      "u": "$",
+      "min": 0,
+      "max": 3000,
+      "step": 5,
+      "f": "usmleFees",
+      "c": "alta"
+    },
+    "costoPrepUSMLE": {
+      "v": 3500,
+      "l": "Material de estudio (UWorld, NBMEs, Amboss)",
+      "u": "$",
+      "min": 0,
+      "max": 15000,
+      "step": 100,
+      "f": "estimado",
+      "c": "media",
+      "e": true
+    },
+    "costoECFMG": {
+      "v": 1500,
+      "l": "ECFMG (Pathway $945 + OET Medicine ~$500)",
+      "u": "$",
+      "min": 0,
+      "max": 5000,
+      "step": 50,
+      "f": "ecfmgPath",
+      "c": "media"
+    },
+    "costoERAS": {
+      "v": 4500,
+      "l": "ERAS (~100 programas IM/FM) + NRMP + transcript",
+      "u": "$",
+      "min": 0,
+      "max": 15000,
+      "step": 100,
+      "f": "eras2027",
+      "c": "media",
+      "n": "1–30 programas $11 c/u; 31+ $30 c/u por especialidad; ~100 IM + 30 FM ≈ $3.8k + NRMP."
+    },
+    "costoEntrevistas": {
+      "v": 1500,
+      "l": "Entrevistas (mayoría virtuales) + viaje a 1-2",
+      "u": "$",
+      "min": 0,
+      "max": 10000,
+      "step": 100,
+      "f": "estimado",
+      "c": "media",
+      "e": true
+    },
+    "costoMudanza": {
+      "v": 6000,
+      "l": "Mudanza a la residencia",
+      "u": "$",
+      "min": 0,
+      "max": 20000,
+      "step": 250,
+      "f": "estimado",
+      "c": "media",
+      "e": true
+    },
+    "costoLicencia": {
+      "v": 3500,
+      "l": "Step 3 + licencia + DEA + board exam",
+      "u": "$",
+      "min": 0,
+      "max": 10000,
+      "step": 100,
+      "f": "usmleFees",
+      "c": "media",
+      "e": true
+    },
+    "probStep1": {
+      "v": 0.8,
+      "l": "Prob. aprobar Step 1 (cada intento)",
+      "u": "%",
+      "min": 0.3,
+      "max": 1,
+      "step": 0.01,
+      "f": "usmlePass",
+      "c": "baja",
+      "e": true,
+      "n": "IMGs primera vez ~72% (2025); se asume algo más por preparación estructurada."
+    },
+    "probStep2": {
+      "v": 0.8,
+      "l": "Prob. aprobar Step 2 CK (cada intento)",
+      "u": "%",
+      "min": 0.3,
+      "max": 1,
+      "step": 0.01,
+      "f": "usmlePass",
+      "c": "baja",
+      "e": true
+    },
+    "retrasoReprobar": {
+      "v": 0.5,
+      "l": "Retraso por reprobar un examen",
+      "u": "años",
+      "min": 0.25,
+      "max": 1.5,
+      "step": 0.25,
+      "f": "estimado",
+      "c": "media",
+      "k": true
+    },
+    "probMatch": {
+      "v": 0.45,
+      "l": "Prob. de match (Main Match, IM/FM/Peds, aplicación amplia)",
+      "u": "%",
+      "min": 0.05,
+      "max": 0.9,
+      "step": 0.01,
+      "f": "visa2026",
+      "c": "baja",
+      "e": true,
+      "k": true,
+      "n": "Non-US IMG sin visa 67.9% (2026); se reduce por ~8-9 años desde graduación (YOG), sin experiencia clínica médica reciente. Rango razonable 25–60%."
+    },
+    "abiertoMudarse": {
+      "v": true,
+      "l": "Dispuesto a mudarte a cualquier estado para la residencia",
+      "u": "bool",
+      "f": "imgFriendly",
+      "c": "media",
+      "n": "Si es 'no', prob. de match × factor de la región × 0.75 (menos programas)."
+    },
+    "probSoap": {
+      "v": 0.25,
+      "l": "Prob. de obtener puesto en SOAP si no hay match",
+      "u": "%",
+      "min": 0,
+      "max": 0.7,
+      "step": 0.01,
+      "f": "soapRA",
+      "c": "baja",
+      "e": true
+    },
+    "soapCategoricoPct": {
+      "v": 0.4,
+      "l": "Del SOAP, fracción categórico (vs preliminar)",
+      "u": "%",
+      "min": 0,
+      "max": 1,
+      "step": 0.05,
+      "f": "soapAMA",
+      "c": "baja",
+      "e": true,
+      "n": "En 2025, 146 puestos preliminares de medicina y 260 transicionales en SOAP."
+    },
+    "probMatchTrasPrelim": {
+      "v": 0.55,
+      "l": "Prob. de match categórico tras año preliminar",
+      "u": "%",
+      "min": 0,
+      "max": 1,
+      "step": 0.01,
+      "f": "estimado",
+      "c": "baja",
+      "e": true
+    },
+    "probMatchReintento": {
+      "v": 0.3,
+      "l": "Prob. de match en reintento (sin puesto previo)",
+      "u": "%",
+      "min": 0,
+      "max": 1,
+      "step": 0.01,
+      "f": "estimado",
+      "c": "baja",
+      "e": true
+    },
+    "intentosMax": {
+      "v": 2,
+      "l": "Ciclos de Match que estás dispuesto a intentar",
+      "u": "n",
+      "min": 1,
+      "max": 4,
+      "step": 1,
+      "f": "estimado",
+      "c": "media"
+    },
+    "residenciaAnios": {
+      "v": 3,
+      "l": "Duración residencia IM/FM",
+      "u": "años",
+      "min": 3,
+      "max": 4,
+      "step": 1,
+      "f": "estimado",
+      "c": "alta"
+    },
+    "especialidad": {
+      "v": "hospitalista",
+      "l": "Salida como attending",
+      "u": "opcion",
+      "opciones": {
+        "hospitalista": "Hospitalista (IM)",
+        "fm": "Medicina familiar"
+      },
+      "f": "estimado",
+      "c": "alta"
+    },
+    "locumsTurnosMes": {
+      "v": 2,
+      "l": "Turnos locum extra por mes (12 h, vía S-corp)",
+      "u": "n",
+      "min": 0,
+      "max": 10,
+      "step": 1,
+      "f": "locums",
+      "c": "media",
+      "k": true
+    },
+    "locumsTarifa": {
+      "v": 170,
+      "l": "Tarifa locum hospitalista",
+      "u": "$/h",
+      "min": 100,
+      "max": 300,
+      "step": 5,
+      "f": "locums",
+      "c": "media"
+    },
+    "directorMedico": {
+      "v": 0,
+      "l": "Ingreso medical director (desde attending año 3)",
+      "u": "$",
+      "min": 0,
+      "max": 100000,
+      "step": 1000,
+      "f": "estimado",
+      "c": "baja",
+      "e": true
+    },
+    "tutoria": {
+      "v": 0,
+      "l": "Tutoría USMLE/médica anual (tras aprobar Steps)",
+      "u": "$",
+      "min": 0,
+      "max": 50000,
+      "step": 500,
+      "f": "estimado",
+      "c": "baja",
+      "e": true
+    },
+    "residentePslf": {
+      "v": true,
+      "l": "Residencia y empleo attending en sin fines de lucro (PSLF)",
+      "u": "bool",
+      "f": "pslf2026",
+      "c": "media"
+    },
+    "montecarloN": {
+      "v": 1000,
+      "l": "Simulaciones Monte Carlo",
+      "u": "n",
+      "min": 100,
+      "max": 5000,
+      "step": 100,
+      "f": "estimado",
+      "c": "alta"
+    },
+    "bonoFirmaAttending": {
+      "v": 20000,
+      "l": "Bono de firma como attending",
+      "u": "$",
+      "min": 0,
+      "max": 100000,
+      "step": 1000,
+      "f": "estimado",
+      "c": "baja",
+      "e": true
+    },
+    "factorMatchSiReprueba": {
+      "v": 0.5,
+      "l": "Multiplicador de prob. de match por cada examen reprobado",
+      "u": "x",
+      "min": 0.1,
+      "max": 1,
+      "step": 0.05,
+      "f": "estimado",
+      "c": "baja",
+      "e": true,
+      "n": "Reprobar un Step es una 'red flag' fuerte para los programas."
+    },
+    "creditoPrelim": {
+      "v": false,
+      "l": "El año preliminar cuenta como PGY-1 (no se repite)",
+      "u": "bool",
+      "f": "estimado",
+      "c": "baja",
+      "e": true
+    }
+  },
+  "escenarios": {
+    "pesimista": {
+      "salarios": 0.92,
+      "retorno": -0.02,
+      "inflacion": 0.01,
+      "retraso": 0.5,
+      "probMatch": -0.15,
+      "apreciacion": -0.02,
+      "tasaHipoteca": 0.01,
+      "gastos": 1.08,
+      "probExamenes": -0.1
+    },
+    "base": {
+      "salarios": 1.0,
+      "retorno": 0,
+      "inflacion": 0,
+      "retraso": 0,
+      "probMatch": 0,
+      "apreciacion": 0,
+      "tasaHipoteca": 0,
+      "gastos": 1.0,
+      "probExamenes": 0
+    },
+    "optimista": {
+      "salarios": 1.06,
+      "retorno": 0.015,
+      "inflacion": -0.005,
+      "retraso": 0,
+      "probMatch": 0.1,
+      "apreciacion": 0.01,
+      "tasaHipoteca": -0.0125,
+      "gastos": 0.96,
+      "probExamenes": 0.08
+    }
+  }
+}
