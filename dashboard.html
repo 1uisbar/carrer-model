@@ -1212,7 +1212,14 @@ table.wraptbl td { white-space: normal; text-align: left; vertical-align: top; m
       summary: { nw5: mc.mean[4], nw10: mc.mean[9], nw20: mc.mean[mc.mean.length - 1], nw20Real: mc.mean[mc.mean.length - 1] / defl(mc.years[mc.years.length - 1]),
         buyYear: mc.medianBuy, payoffYear: null, maxDebt: null, yearsLowIncome: null, avgNet: null, attending: mc.medianAttend },
     };
+    if (isDark()) for (const r of [...results, ev]) r.color = DARK_MAP[r.color] || r.color;
     R = { P, results, mc, ev, defl, byId: Object.fromEntries(results.map(r => [r.id, r])) };
+  }
+  const DARK_MAP = { '#0f172a': '#e2e8f0', '#111827': '#f8fafc', '#475569': '#94a3b8', '#334155': '#cbd5e1', '#64748b': '#a3b1c6' };
+  function isDark() {
+    const t = document.documentElement.getAttribute('data-theme');
+    if (t) return t === 'dark';
+    return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
   }
   let timer = null;
   function schedule() { clearTimeout(timer); timer = setTimeout(() => { compute(); render(); }, 120); }
@@ -1503,7 +1510,7 @@ table.wraptbl td { white-space: normal; text-align: left; vertical-align: top; m
   }
   function renderGraficos(el) {
     el.innerHTML = `
-      <div class="card"><h2>Caminos visibles</h2>${chipsHTML()}<p class="muted">La línea discontinua negra es el valor esperado del camino MD según la simulación Monte Carlo (pondera match, SOAP, reintentos y plan B).</p></div>
+      <div class="card"><h2>Caminos visibles</h2>${chipsHTML()}<p class="muted">La línea discontinua es el valor esperado del camino MD según la simulación Monte Carlo (pondera match, SOAP, reintentos y plan B).</p></div>
       <div class="grid2">
         <div class="card"><h2>Patrimonio neto año por año</h2><div class="chart-box tall"><canvas id="cNw"></canvas></div></div>
         <div class="card"><h2>Ingreso neto anual (después de impuestos)</h2><div class="chart-box tall"><canvas id="cNet"></canvas></div></div>
@@ -1654,10 +1661,10 @@ table.wraptbl td { white-space: normal; text-align: left; vertical-align: top; m
       </div>`;
     const labels = mc.years;
     const ds = [
-      { label: 'MD P90', data: mc.p90, borderColor: 'rgba(17,24,39,.25)', backgroundColor: 'rgba(100,116,139,.15)', fill: '+1', borderWidth: 1 },
-      { label: 'MD P10', data: mc.p10, borderColor: 'rgba(17,24,39,.25)', borderWidth: 1 },
-      { label: 'MD mediana', data: mc.p50, borderColor: '#334155', borderDash: [3, 3] },
-      { label: 'MD media', data: mc.mean, borderColor: '#111827', borderDash: [6, 4], borderWidth: 3 },
+      { label: 'MD P90', data: mc.p90, borderColor: 'rgba(100,116,139,.5)', backgroundColor: 'rgba(100,116,139,.18)', fill: '+1', borderWidth: 1 },
+      { label: 'MD P10', data: mc.p10, borderColor: 'rgba(100,116,139,.5)', borderWidth: 1 },
+      { label: 'MD mediana', data: mc.p50, borderColor: isDark() ? '#cbd5e1' : '#334155', borderDash: [3, 3] },
+      { label: 'MD media', data: mc.mean, borderColor: R.ev.color, borderDash: [6, 4], borderWidth: 3 },
       ...cmp.map(r => ({ label: r.nombre, data: r.rows.map(x => x.nw), borderColor: r.color })),
     ];
     if (state.real) ds.forEach(d => { d.data = d.data.map((v, k) => v / R.defl(labels[k])); });
